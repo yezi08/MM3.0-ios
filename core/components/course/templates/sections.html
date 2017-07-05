@@ -11,7 +11,7 @@
            <ion-refresher on-refresh="doRefresh()" pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="sectionsLoaded"></ion-refresher>
             <mm-loading hide-until="sectionsLoaded">
             	<!--START: XJTLU ADDITION 05/July/2017 - add an image on top of the section list in module menu-->
-            		<img src="http://10.7.84.31/local/mobile/course.png" width="100%" height="auto" max-height="200px"/>       	
+            	<!--	<img src="../../../../img/course.png" width="100%" height="auto" max-height="200px"/>  -->     	
             	<!--END: XJTLU ADDITION 05/July/2017--> 
                 <ul class="list">               
                     <li ng-repeat="section in sections" ng-if="sectionHasContent(section)" ng-class="{'item-dimmed': section.visible === 0 || section.uservisible === false}">
