@@ -14086,7 +14086,7 @@ ion-side-menu li .item:hover{
 	background:rgba(0,0,0,0.4);
 }
 
-/*"timeline courses bar"*/
+/*"timeline courses bar"*//*
 .scroll-content .tabs-striped{
 	background-image:url(../img/bar.png);
 	background-size: 100% auto;
@@ -14095,7 +14095,7 @@ ion-side-menu li .item:hover{
 .bar-content .secondary-buttons .ion-plus{
 	display:none;
 }
-
+*/
 /*change orange to blue*/
 
 .tabs-striped.tabs-color-royal .tab-item, .tabs-color-royal .tab-item, .mm-tabs-color .tab-item, .mm-tabs-color .tab-item{
